@@ -1,1 +1,2 @@
 # leetcode
+# about leetcode.com
