@@ -1,11 +1,6 @@
 /**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
+ *	题目：非递归中序遍历
+ *	细节：背也得背会
  */
 class Solution {
 public:
