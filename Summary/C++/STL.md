@@ -1,5 +1,6 @@
-##vector
-###erase()方法
+#vector
+
+##erase()方法
 用于删除vector中的数据，v.erase(iter)删除iter所指向的指针，并且返回下一个元素的指针。
 ####两种原型：  
 	iterator erase(iterator position); 
@@ -26,3 +27,8 @@
 			iter ++ ;
 	}
 
+
+##clear()方法
+clear方法的实现的将size置为1，并不会释放实际的内存。一般的解决办法是与临时的vector交换内存实现：
+
+	vector<int>().swap(vec);
